@@ -1,16 +1,15 @@
 # Wave Portal
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample
+script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-## Screenshots 
-[Frontend available](https://waveportal-starter-project.rjnemo.repl.co) 
+## Screenshots
+
+[Frontend available](https://waveportal-starter-project.rjnemo.repl.co)
 
 [![screenshot](./docs/homepage.png)](https://waveportal-starter-project.rjnemo.repl.co)
-
-
+ 
 [![NFT](https://lh3.googleusercontent.com/JdpzIf6XyZuG48Ki2vTDP7FwH1ezrhaW4Dt5lT9AlaX9ntMkHTUjcriPWJG7CW1THcXHdN92JPktNwC9wBJVUUcHgOVAj6BKN8Fo5g=w600)](https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/16450)
-
-
 
 Try running some of the following tasks:
 

@@ -42,8 +42,9 @@ contract WavePortal {
             console.log("%s won!", msg.sender);
             uint256 prizeAmount = 0.001 ether;
             require(prizeAmount <= address(this).balance);
-            (bool success, ) = (msg.sender).call{value: prizeAmount}("");
-            require(success, "Failed to withdraw from the contract"); // mark the transaction as an error if it failed
+            (bool success,) = (msg.sender).call{value : prizeAmount}("");
+            // mark the transaction as an error if it failed
+            require(success, "Failed to withdraw from the contract");
         }
 
         emit NewWave(msg.sender, block.timestamp, _message);
